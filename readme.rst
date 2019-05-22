@@ -75,6 +75,9 @@ To generate results::
 
 .. image:: images/mnist_dcgan.jpg
 
+DCGAN with labels.
+..................
+
 This network can also be trained using the labelling information
 present in the MNIST dataset. This leads to better results and each
 digit can be sampled explicitly.
@@ -104,6 +107,9 @@ To generate results::
     $ python -m dnn_tensorflow.train_scripts.mnist.fcgan --sample_generator
 
 .. image:: images/mnist_fcgan.jpg
+
+FCGAN with labels.
+..................
 
 This network can also be trained using the labelling information
 present in the MNIST dataset. This leads to better results and each
