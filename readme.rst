@@ -24,7 +24,7 @@ the number of training epochs and adds a new convolution layer and pooling
 layer vs the default network. Any number of layers can be added / removed
 via the command line in this fashion.
 
-Each script can have options view by::
+Each script can have options viewed by::
 
     $ python -m path.to.train.script --help
 
